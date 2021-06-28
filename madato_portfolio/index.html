@@ -1,0 +1,324 @@
+<!-- 使用しているテンプレート：https://webdesigner-go.com/template/portfolio-04/ -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+  <meta property='og:type' content='website'>
+  <meta property='og:title' content='いーもり-Portfolio'>
+  <meta property='og:url' content='#'>
+  <meta property='og:description' content='Masato Iimoriのポートフォリオサイトです。'>
+  <!-- <meta property="og:image" content="img/ogp.png"> -->
+  <meta name="description" content="Masato Iimoriのポートフォリオサイトです" />
+  <title>いーもり-Portfolio</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
+  <link href="css/ress.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+  <link rel="shortcut icon" href="img/me2.ico" />
+  <link rel=”canonical” href=”URLが入る” />
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <!-- header -->
+    <header class="header ">
+      <div class="header-inner">
+        <h1 class="header-logo">
+          <a href=".">MASATO IIMORI</a>
+        </h1>
+        <nav class="header-nav">
+          <ul class="header-nav-list">
+            <li class="header-nav-item"><a href="#profile">PROFILE</a></li>
+            <li class="header-nav-item"><a href="#works">WORKS</a></li>
+            <li class="header-nav-item"><a href="#skill">SKILL</a></li>
+            <li class="header-nav-item"><a href="#contact">CONTACT</a></li>
+            <li class="header-nav-item"><a href="#blog">BLOG</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- /header -->
+
+    <main class="content">
+
+      <!-- split -->
+      <div class="split">
+        <div class="split-body">
+          <p class="split-title">いーもり /Emori <!--MASATO<br>IIMORI</p>-->
+          <p class="split-text">
+            くすっと笑顔になるようなものづくり、<br>
+            見た人を圧倒させるモデリング、<br>
+            誰かを幸せにするものづくりを得意とします
+          </p>
+        </div>
+        <div class="split-img">
+            <img src="img/me2.png" alt="">
+            <img src="img/theta1.png" alt="">
+            <img src="img/xwing_trench_with_laser.png" alt="">
+            <img src="img/MonsterRide.JPG" alt="">
+            <img src="img/photoreal_1.png" alt="">
+            <img src="img/photoreal_1_workbench.png" alt="">
+            <img src="img/Speeker.JPG" alt="">
+            <img src="img/AR.png" alt="">
+            <img src="img/furby.JPG" alt="">
+            
+        </div>
+      </div>
+      <!-- /split -->
+
+      <!-- PROFILE -->
+      <section class="profile section" id=profile>
+        <div class="inner">
+          <h2 class="title">PROFILE</h2>
+          <p>
+            <b>飯森優斗/Masato Iimori</b> <br>
+            慶應義塾大学湘南藤沢キャンパス Sociable Robots Lab所属 <br>
+            3DCADや3DCGを用いた3Dプリントや設計、モデリング、レンダリング<br>
+            Arduinoやラズベリーパイなどを用いた電子工作やものづくりが得意です
+          </p>
+        </div>
+      </section>
+      <!-- PROFILE -->
+
+
+
+      <!-- works -->
+      <section class="works section" id="works">
+        <div class="inner">
+          <h2 class="title">WORKS</h2>
+          <div class="works-list">
+            <!-- メモ：Worksはポップアップみたいな感じで新しいページしない -->
+
+            <label class="works-item" for="pop-up">
+                <p class="works-img"><img src="img/theta4_3.png" alt="" /></p>
+                <p class="works-name">バーチャルθ館</p>
+                <p class="works-info">Modeling/ World Making</p>
+            </label>
+            <input type="checkbox" id="pop-up">
+            <div class="overlay">
+              <div class="window">
+                <label class="close" for="pop-up">×</label>
+                <p class="text">
+                  <div class="pop-up-title">
+                    バーチャルθ館
+                  </div>
+                </p>
+                  <p class="pop-up-description">
+                    aaaaaaaaaaaaa
+                  </p>
+                <div id="wrapper">
+                  <iframe id="yvideo" src="https://www.youtube.com/embed/4roCFFl12UE" title="YouTube video player" frameborder="0"allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"allowfullscreen></iframe>
+                </div>
+                  
+              </div>
+            </div>
+
+            <label class="works-item" for="pop-up">
+              <p class="works-img"><img src="img/koikaze4_3.png" alt="" /></p>
+              <p class="works-name">恋風</p>
+              <p class="works-info">VR/ Hardware</p>
+            </label>
+            <input type="checkbox" id="pop-up">
+            <div class="overlay">
+              <div class="window">
+                <label class="close" for="pop-up">×</label>
+                <p class="text">バーチャルθ館<br>
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/4roCFFl12UE" title="YouTube video player"
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                </p>
+              </div>
+            </div>
+
+            <a class="works-item" href="works-template.html">
+              <p class="works-img"><img src="img/nioi_kairo.png" alt="" /></p>
+              <p class="works-name">匂いの回路</p>
+              <p class="works-info">Hardware/ Circuit/ 3DCAD Design</p>
+            </a>
+            <a class="works-item" href="works-template.html">
+              <p class="works-img"><img src="img/catwitter.JPG" alt="" /></p>
+              <p class="works-name">CaTwitter</p>
+              <p class="works-info">Hardware/ Software/ 3DCAD/ Circuit</p>
+            </a>
+
+            <a class="works-item" href="works-template.html">
+              <p class="works-img"><img src="img/senpuki.png" alt="" /></p>
+              <p class="works-name">扇風機乙</p>
+              <p class="works-info">Hardware/ Software/ 3DCAD/ Circuit</p>
+
+            </a><a class="works-item" href="works-template.html">
+              <p class="works-img"><img src="img/animatronicbird.JPG" alt="" /></p>
+              <p class="works-name">Animatronic Bird</p>
+              <p class="works-info">Hardware/ Software/ 3DCAD/ Circuit</p>
+            </a>
+
+            <a class="works-item" href="works-template.html">
+              <p class="works-img"><img src="img/works-dummy-thumb.jpg" alt="" /></p>
+              <p class="works-name">CONECT</p>
+              <p class="works-info">3D Model / Hardware</p>
+            </a>
+
+            <a class="works-item" href="works-template.html">
+              <p class="works-img"><img src="img/sukashi.png" alt="" /></p>
+              <p class="works-name">透かし絵</p>
+              <p class="works-info">3DCAD</p>
+            </a>
+
+            <a class="works-item" href="works-template.html">
+              <p class="works-img"><img src="img/xwing_trench_with_laser_2.png" alt="" /></p>
+              <p class="works-name">X WING</p>
+              <p class="works-info">Modeling/ Rendering</p>
+            </a>
+            
+            <a class="works-item" href="works-template.html">
+              <p class="works-img"><img src="img/AR4_3.png" alt="" /></p>
+              <p class="works-name">AR年賀状</p>
+              <p class="works-info">Modeling/ Software</p>
+            </a>
+
+            <a class="works-item" href="works-template.html">
+              <p class="works-img"><img src="img/haloween.PNG" alt="" /></p>
+              <p class="works-name">ハロウィンコスチューム</p>
+              <p class="works-info">Animatronic Hand </p>
+            </a>
+
+            <a class="works-item" href="works-template.html">
+              <p class="works-img"><img src="img/photoreal_1_world.png" alt="" /></p>
+              <p class="works-name">Blender Works</p>
+              <p class="works-info">3DCG/ Rendering </p>
+            </a>
+
+          </div>
+        </div>
+
+      </section>
+      <!-- /works -->
+
+      <!-- skill -->
+      <section class="skill section" id="skill">
+        <div class="inner">
+          <h2 class="title">SKILL</h2>
+          <div class="skill-list">
+
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/icon_skill.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">Blender</h3>
+                <p class="skill-text">
+                  3DモデリングからレンダリングにVFX</p>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/icon_skill.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">Fusion360</h3>
+                <p class="skill-text">
+                  設計</p>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/icon_skill.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">Python</h3>
+                <p class="skill-text">
+                  ああ</p>
+              </div>
+
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/icon_skill.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">C,C++</h3>
+                <p class="skill-text">
+                  テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/icon_skill.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">Unity</h3>
+                <p class="skill-text">
+                  </p>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/icon_skill.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">Arduino</h3>
+                <p class="skill-text">
+                  テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/icon_skill.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">3D Print</h3>
+                <p class="skill-text">
+                  テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
+              </div>
+            </div>
+            
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/icon_skill.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">ものづくり</h3>
+                <p class="skill-text">
+                  テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/icon_skill.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">Processing/ P5.js</h3>
+                <p class="skill-text">
+                  テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /skill -->
+
+      <!-- contact -->
+      <section class="contact section" id="contact">
+        <div class="inner">
+          <h2 class="title">CONTACT</h2>
+          <p class="lead">
+            お問い合わせは、<br class="sp-only">SNSかメールにてお願いいたします。
+          </p>
+          <div class="contact-list">
+            <a class="contact-item" href="https://twitter.com/Oswaldmori1977" target="_blank" rel="noopener">Twitter</a>
+            <!-- <a class="contact-item" href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a> -->
+            <span class="contact-item">xxxxxx@gmail.com</span>
+          </div>
+        </div>
+      </section>
+      <!-- /contact -->
+      <div class="page-top" id="js-page-top">
+        <span class="material-icons-outlined">expand_less</span>
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="copyright">&copy;MASATO IIMORI</div>
+    </footer>
+    <!-- /footer -->
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type='text/javascript' src="js/script.js"></script>
+</body>
+</html>
