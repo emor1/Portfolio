@@ -75,14 +75,14 @@
           <img src="img/me2.png" alt="">
           <img src="img/theta1.png" alt="" decoding="async">
           <img src="img/x_wing_wip.png" alt="" decoding="async">
-          <img src="img/xwing_trench_with_laser.png" alt="" decoding="async">
+          <img src="img/xwing_trench_with_laser.jpg" alt="" decoding="async">
           <img src="img/xwing_trench_with_laser_2.png" alt="" decoding="async">
-          <img src="img/MonsterRide.JPG" alt="" decoding="async">
-          <img src="img/photoreal_1.png" alt="" decoding="async">
+          <!-- <img src="img/MonsterRide.JPG" alt="" decoding="async"> -->
+          <img src="img/photoreal_1.jpg" alt="" decoding="async">
           <img src="img/photoreal_1_workbench.png" alt="" decoding="async">
-          <img src="img/Speeker.JPG" alt="" decoding="async">
+          <!-- <img src="img/Speeker.JPG" alt="" decoding="async"> -->
           <img src="img/AR.png" alt="" decoding="async">
-          <img src="img/furby.JPG" alt="" decoding="async">
+          <!-- <img src="img/furby.JPG" alt="" decoding="async"> -->
 
         </div>
       </div>
@@ -114,7 +114,7 @@
 
             <!-- アニマトロニクス -->
             <label class="works-item" for="pop-up1">
-              <p class="works-img"><img src="img/animatronic_face.jpg" alt="" / decoding="async"></p>
+              <p class="works-img"><img src="img/animatronic_face.jpg" alt=""  decoding="async"></p>
               <p class="works-name">アニマトロニクスヘッド</p>
               <p class="works-info">Hardware/ Software</p>
             </label>
@@ -143,7 +143,7 @@
             
             <!-- バーチャルθ館 -->
             <label class="works-item" for="pop-up2">
-              <p class="works-img"><img src="img/theta4_3.png" alt="" /></p>
+              <p class="works-img"><img src="img/theta4_3.jpg" alt="" /></p>
               <p class="works-name">バーチャルθ館</p>
               <p class="works-info">Modeling/ World Making</p>
             </label>
@@ -188,9 +188,11 @@
                   </div>
                 </p>
                 <p class="pop-up-description">
-                  趣味で開発しているコミュニケーションロボット。<br>
-                  <img src="img/obake.jpg" alt="" />
+                  趣味で開発しているコミュニケーションロボット。
                 </p>
+                <div id="wrapper">
+                  <img id="popup_img" src="img/obake.jpg" alt="" />
+                </div>
               </div>
             </div>
 
@@ -211,9 +213,11 @@
                 </p>
                 <p class="pop-up-description">
                   いつでもどこでもすれ違う感覚を体験出来る装置。立体音響の足音と、風、匂いによりすれ違う感覚を味わうことが出来る。ハードウェアの設計と実装を担当。<br>
-                  <a href="https://hacku.yahoo.co.jp/sfc2019/">Hack U SFC 2019</a>
-                  <img src="img/koikaze4_3.png" alt="" />
+                  <a href="https://hacku.yahoo.co.jp/sfc2019/">Hack U SFC 2019</a> <br>
                 </p>
+                <div id="wrapper">
+                  <img id="popup_img" src="img/koikaze4_3.png" alt="" />
+                </div>
               </div>
             </div>
 
@@ -318,9 +322,11 @@
                 </div>
                 </p>
                 <p class="pop-up-description">
-                  大学入学前の事前課題として作成した鳥のアニマトロニクス。カラートラッキングを実装し、特定の色を追跡して首を動かすことが出来る。また羽も動かすことが出来る。
+                  大学入学前の事前課題として作成した鳥のアニマトロニクス。カラートラッキングを実装し、特定の色を追跡して首を動かすことが出来る。また羽も動かすことが出来る。<br>
                 </p>
-                <img src="img/animatronicbird.JPG" alt="" />
+                <div id="wrapper">
+                  <img id="popup_img" src="img/animatronicbird.JPG" alt="" />
+                </div>
               </div>
             </div>
 
@@ -343,7 +349,6 @@
                   大学の友人たちと協力して、キャンパスで実施したプロジェクションマッピング。
                   植物の3Dモデルの作成と、自動改札機の電気系統を担当。
                   <a href="https://note.com/senseartjp/n/ne3643074d80f">ハードウェア開発 - sense. CONNECTの舞台裏</a>
-                  
                 </p>
                 <div id="wrapper">
                   <iframe id="yvideo" src="https://www.youtube.com/embed/gSZtUOACE3U" title="YouTube video player"
@@ -354,23 +359,44 @@
               </div>
             </div>
 
-            <a class="works-item" href="workinprogress.html">
-              <p class="works-img"><img src="img/sukashi.png" alt="" /></p>
+
+            <!-- AR年賀 -->
+            <label class="works-item" for="pop-up10">
+              <p class="works-img"><img src="img/AR.png" alt="" /></p>
+              <p class="works-name">AR年賀状</p>
+              <p class="works-info">Modeling/ Software</p>
+            </label>
+            <input type="checkbox" id="pop-up10">
+            <div class="overlay">
+              <div class="window">
+                <label class="close" for="pop-up10">×</label>
+                <p class="text">
+                <div class="pop-up-title">
+                  AR年賀
+                </div>
+                </p>
+                <p class="pop-up-description">
+                  ARの年賀状。スマホで年賀状のQRコードを読み込むと、ネズミの3DモデルがARで表示される。AR.jsを使用。
+                </p>
+                <div id="wrapper">
+                  <iframe id="yvideo" width="560" height="315" src="https://www.youtube.com/embed/OpFNe5K3ozI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+
+            <!-- <a class="works-item" href="workinprogress.html">
+              <p class="works-img"><img src="img/sukashi.JPG" alt="" /></p>
               <p class="works-name">透かし絵</p>
               <p class="works-info">3DCAD</p>
-            </a>
+            </a> -->
 
             <a class="works-item" href="workinprogress.html">
-              <p class="works-img"><img src="img/x_wing_wip_3.png" alt="" /></p>
+              <p class="works-img"><img src="img/x_wing_wip_3.jpg" alt="" /></p>
               <p class="works-name">X WING</p>
               <p class="works-info">Modeling/ Rendering</p>
             </a>
 
-            <a class="works-item" href="workinprogress.html">
-              <p class="works-img"><img src="img/AR4_3.png" alt="" /></p>
-              <p class="works-name">AR年賀状</p>
-              <p class="works-info">Modeling/ Software</p>
-            </a>
+
 
             <a class="works-item" href="workinprogress.html">
               <p class="works-img"><img src="img/haloween.PNG" alt="" /></p>
